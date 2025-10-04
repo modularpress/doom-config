@@ -25,6 +25,8 @@
 (setq doom-font (font-spec :family "Menlo" :size 18)
       doom-variable-pitch-font (font-spec :family "Georgia" :size 18))
 
+(setq doom-theme 'doom-one)
+
 ;; Make j/k move by logical lines even with visual-line-mode active
 (setq evil-respect-visual-line-mode nil)
 
