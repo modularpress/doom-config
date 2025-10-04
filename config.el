@@ -2,7 +2,7 @@
 
 ;; Place your private configuration here! Remember, you do not need to run 'doom
 ;; sync' after modifying this file!
-
+(setq doom-theme 'doom-one)
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
@@ -24,8 +24,6 @@
 ;; config.el
 (setq doom-font (font-spec :family "Menlo" :size 18)
       doom-variable-pitch-font (font-spec :family "Georgia" :size 18))
-
-(setq doom-theme 'doom-one)
 
 ;; Make j/k move by logical lines even with visual-line-mode active
 (setq evil-respect-visual-line-mode nil)
